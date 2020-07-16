@@ -1,27 +1,13 @@
-class cat:
+class Cat:
+    #class variable or member
     color = 'red'
-
+    #instance method
     def meow(self):
-        print('야옹~')
+        print('야옹~ 야옹~!')
 
-
-raon = cat()
+raon = Cat()
+nabi = Cat()
+tong = Cat()
 raon.meow()
-tong = cat()
-nabi = cat()
+nabi.meow()
 tong.meow()
-
-#print(raon)
-
-
-
-
-
-
-
-
-
-
-
-
-
